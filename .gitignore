@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# next
+/.next
+/out
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+*.local
+
+# tooling caches
+.npm-cache
+Library/
+
+# env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+

@@ -1,0 +1,31 @@
+<svg width="520" height="520" viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Taavare Tales</title>
+<desc id="desc">A soft script T with a yellow flower accent for Taavare Tales</desc>
+<g fill="none" fill-rule="evenodd">
+  <g transform="translate(120 92)">
+    <circle cx="36" cy="38" r="10" fill="#E52387" opacity=".18"/>
+    <g transform="translate(0 0)">
+      <g transform="translate(0 0)">
+        <ellipse cx="36" cy="18" rx="14" ry="24" fill="#F5A300" transform="rotate(10 36 18)"/>
+        <ellipse cx="57" cy="24" rx="14" ry="24" fill="#F5A300" transform="rotate(40 57 24)"/>
+        <ellipse cx="70" cy="40" rx="14" ry="24" fill="#F5A300" transform="rotate(70 70 40)"/>
+        <ellipse cx="70" cy="62" rx="14" ry="24" fill="#F5A300" transform="rotate(100 70 62)"/>
+        <ellipse cx="57" cy="78" rx="14" ry="24" fill="#F5A300" transform="rotate(130 57 78)"/>
+        <ellipse cx="36" cy="84" rx="14" ry="24" fill="#F5A300" transform="rotate(160 36 84)"/>
+        <ellipse cx="15" cy="78" rx="14" ry="24" fill="#F5A300" transform="rotate(190 15 78)"/>
+        <ellipse cx="2" cy="62" rx="14" ry="24" fill="#F5A300" transform="rotate(220 2 62)"/>
+        <ellipse cx="2" cy="40" rx="14" ry="24" fill="#F5A300" transform="rotate(250 2 40)"/>
+        <ellipse cx="15" cy="24" rx="14" ry="24" fill="#F5A300" transform="rotate(280 15 24)"/>
+      </g>
+      <circle cx="36" cy="52" r="11" fill="#E52387" opacity=".12"/>
+    </g>
+  </g>
+  <path d="M142 158c54-17 112-24 174-21" stroke="#E52387" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M239 171c-8 66-9 123-2 172 4 32 19 51 44 55 29 5 58-9 86-41" stroke="#E52387" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M338 342c18-29 40-48 67-59" stroke="#E52387" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M405 274c18 12 24 29 18 50-4 13-13 24-24 32-10 7-18 4-22-7-5-14-2-28 7-41 7-10 13-22 21-34z" fill="#E52387"/>
+  <path d="M118 210c2-18 13-32 32-42" stroke="#E52387" stroke-width="8" stroke-linecap="round"/>
+</g>
+</svg>
+
+
