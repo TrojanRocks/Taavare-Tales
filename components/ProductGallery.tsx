@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
-import useEmblaCarousel, { EmblaCarouselType } from "embla-carousel-react";
+import useEmblaCarousel from "embla-carousel-react";
+import type { EmblaCarouselType } from "embla-carousel";
 import type { Product } from "../lib/data";
 import { cn } from "../lib/utils";
 

@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode, type ElementType } from "react";
 
 type RevealProps = {
   children: ReactNode;
-  as?: keyof JSX.IntrinsicElements;
+  as?: ElementType;
   delay?: number;
   className?: string;
 };
@@ -15,7 +15,7 @@ export function Reveal({
   delay = 0,
   className = ""
 }: RevealProps) {
-  const ref = useRef<HTMLElement>(null);
+  const ref = useRef<HTMLElement | null>(null);
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -38,14 +38,16 @@ export function Reveal({
     return () => observer.disconnect();
   }, []);
 
+  const Wrapper = Tag as any;
+
   return (
-    <Tag
-      ref={ref as React.MutableRefObject<HTMLElement>}
+    <Wrapper
+      ref={ref}
       className={`reveal ${visible ? "is-visible" : ""} ${className}`}
       style={{ ["--reveal-delay" as string]: `${delay}s` }}
     >
       {children}
-    </Tag>
+    </Wrapper>
   );
 }
 
